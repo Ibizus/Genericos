@@ -11,14 +11,22 @@ public class Matriz<T> {
     // CONSTRUCTOR:
     public void Matriz(int rows, int col){
 
+        // inicializo el array de arrays:
         this.rows = new ArrayList<List<T>>(rows);
+        // seteo los null para que no quede vacío (y poder iterar sobre él):
+        for (int i = 0; i < rows; i++) {
+            this.rows.add(null);
+        }
 
-        // Esto tengo que hacerlo iterando sobre el List del List (doble bucle)
-       /* }
-
+        // ahora puedo iterar para inicializar las columnas y setearlas:
         for (List<T> row: this.rows){
+            // Para cada posición de la fila inicializo un nuevo array (columnas)
             row = new ArrayList<T>(col);
-        }*/
+            // seteo un null en cada posicion de todas las columnas
+            for (int i = 0; i < col; i++) {
+                row.add(null);
+            }
+        }
     }
 
     // METHODS:
