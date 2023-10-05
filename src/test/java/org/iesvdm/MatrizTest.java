@@ -6,7 +6,10 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-
+/**
+ * Test that proves the two dimension array, regarding initialization, size,
+ * management of nulls, toString, getters and setters
+ */
 public class MatrizTest {
 
     // Initialized empty Matriz:

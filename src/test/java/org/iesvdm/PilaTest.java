@@ -4,6 +4,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 
+/**
+ * Tests that proves the generic stack and it behaviour when
+ * adding and removing objects.
+ */
 public class PilaTest {
 
     // Initialized Pila

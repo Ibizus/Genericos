@@ -2,6 +2,11 @@ package org.iesvdm;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+/**
+ * Test that prove all the methods implemented in OrderedList,
+ * checking that it is always ordered but works as a normal List
+ */
 public class ListaOrdenadaTest {
 
     // First initialize List.
