@@ -4,8 +4,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Pila genérica que implementa los métodos que permiten
- * el comportamiento de una lista de tipo cola
+ * Generic stack that implements the methods
+ * that allows the behavior of a list of type queue
  * @param <T>
  */
 public class Pila<T>  {

@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Lista genérica que se ordena de forma automática
+ * Generic List that gets ordered automatically
  * @param <E>
  */
 public class ListaOrdenada <E extends Comparable<E>> {
@@ -20,6 +20,11 @@ public class ListaOrdenada <E extends Comparable<E>> {
     }
 
     // METHODS:
+
+    /**
+     * Add a new element and orders the list
+     * @param elem
+     */
     public void add(E elem){
         lista.add(elem);
         Collections.sort(this.lista);

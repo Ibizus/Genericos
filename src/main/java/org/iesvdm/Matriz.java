@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Matriz bidimensional genérica que se inicializa rellena de nulls
- * según el tamaño indicado en el constructor
+ * Generic two-dimensional array that is filled with nulls
+ * when initialized according to the size given in constructor
  * @param <T>
  */
 public class Matriz<T> {
@@ -30,6 +30,15 @@ public class Matriz<T> {
     }
 
     // METHODS:
+
+    /**
+     * Sets a new element in the given position and returns true
+     * if it was setted correctly or false if not
+     * @param rowPos
+     * @param colPos
+     * @param elem
+     * @return boolean
+     */
     public boolean set(int rowPos, int colPos, T elem){
 
         try{

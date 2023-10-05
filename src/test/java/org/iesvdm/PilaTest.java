@@ -7,7 +7,7 @@ import org.junit.jupiter.api.function.Executable;
 public class PilaTest {
 
     // Initialized Pila
-    Pila tested = new Pila();
+    Pila<Object> tested = new Pila();
 
     @Test
     public void emptyPilaAfterBeingCreated(){
