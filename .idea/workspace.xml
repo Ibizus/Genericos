@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="effc75dc-91ae-4fdc-9364-a95b50b403a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/ListaOrdenada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/ListaOrdenada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/Matriz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/Matriz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iesvdm/Pila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/Pila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/iesvdm/PilaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/PilaTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="effc75dc-91ae-4fdc-9364-a95b50b403a8" name="Changes" comment="FIN" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,24 +31,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/hector/IdeaProjects/Genericos/src/main/java/org/iesvdm/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/hector/Documentos/intellij_workspace",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "/home/hector/IdeaProjects/Genericos/src/main/java/org/iesvdm/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.PilaTest">
     <configuration name="ListaOrdenadaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Genericos" />
@@ -155,9 +150,22 @@
       <workItem from="1696430681331" duration="6753000" />
       <workItem from="1696490365031" duration="18262000" />
     </task>
+    <task id="LOCAL-00001" summary="FIN">
+      <option name="closed" value="true" />
+      <created>1696532408709</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696532408709</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FIN" />
+    <option name="LAST_COMMIT_MESSAGE" value="FIN" />
   </component>
 </project>
