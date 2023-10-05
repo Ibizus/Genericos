@@ -3,28 +3,28 @@ package org.iesvdm;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Matriz bidimensional genérica que se inicializa rellena de nulls
+ * según el tamaño indicado en el constructor
+ * @param <T>
+ */
 public class Matriz<T> {
 
     // ATTRIBUTES:
     private List<List<T>> rows;
 
     // CONSTRUCTOR:
-    public void Matriz(int rows, int col){
+    public Matriz(int rows, int col){
 
         // inicializo el array de arrays:
         this.rows = new ArrayList<List<T>>(rows);
         // seteo los null para que no quede vacío (y poder iterar sobre él):
         for (int i = 0; i < rows; i++) {
-            this.rows.add(null);
-        }
-
-        // ahora puedo iterar para inicializar las columnas y setearlas:
-        for (List<T> row: this.rows){
             // Para cada posición de la fila inicializo un nuevo array (columnas)
-            row = new ArrayList<T>(col);
+            this.rows.add(new ArrayList<T>(col));
             // seteo un null en cada posicion de todas las columnas
-            for (int i = 0; i < col; i++) {
-                row.add(null);
+            for (int j = 0; j < col; j++) {
+                this.rows.get(i).add(null);
             }
         }
     }
@@ -60,14 +60,26 @@ public class Matriz<T> {
     @Override
     public String toString() {
         String result = "";
+        int count = 0;
 
         for (List<T> row: this.rows){
 
-            result += "Row: ";
+            result += "Row" + count + ": ";
             for (T elem: row) {
-                result += "[" + elem.toString() + "]";
+                if(elem == null){
+                    result+= "[ ]";
+                }else {
+                    result += "[" + elem.toString() + "]";
+                }
             }
+            result+="\n";
+            count++;
         }
         return result;
+    }
+
+    // GETTER:
+    public List<List<T>> getRows() {
+        return rows;
     }
 }
