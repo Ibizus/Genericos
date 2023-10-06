@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="effc75dc-91ae-4fdc-9364-a95b50b403a8" name="Changes" comment="Jvadoc de las clases hecho">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="effc75dc-91ae-4fdc-9364-a95b50b403a8" name="Changes" comment="Terminado">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +152,7 @@
       <workItem from="1696401826876" duration="7329000" />
       <workItem from="1696430681331" duration="6753000" />
       <workItem from="1696490365031" duration="18262000" />
+      <workItem from="1696587949667" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="FIN">
       <option name="closed" value="true" />
