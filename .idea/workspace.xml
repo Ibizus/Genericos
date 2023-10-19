@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="effc75dc-91ae-4fdc-9364-a95b50b403a8" name="Changes" comment="Terminado">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/Cola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/RepasoListaOrdenada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iesvdm/RepasoPila.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/ColaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/RepasoListaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/iesvdm/RepasoPilaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_10_23_20_35_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_10_23_20_35__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_10_23_9_01_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_10_23_9_01__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,55 +62,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PilaTest">
-    <configuration name="ListaOrdenadaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Genericos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.iesvdm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.iesvdm" />
-      <option name="MAIN_CLASS_NAME" value="org.iesvdm.ListaOrdenadaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListaOrdenadaTest.removeWorksAsExpected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Genericos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.iesvdm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.iesvdm" />
-      <option name="MAIN_CLASS_NAME" value="org.iesvdm.ListaOrdenadaTest" />
-      <option name="METHOD_NAME" value="removeWorksAsExpected" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListaOrdenadaTest.toStringPrintsTheListProperly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Genericos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.iesvdm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.iesvdm" />
-      <option name="MAIN_CLASS_NAME" value="org.iesvdm.ListaOrdenadaTest" />
-      <option name="METHOD_NAME" value="toStringPrintsTheListProperly" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MatrizTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RepasoListaTest.indexOfFunciona">
+    <configuration name="MatrizTest.setIntroduceObjectAndGetFindsIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Genericos" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +73,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.iesvdm" />
       <option name="MAIN_CLASS_NAME" value="org.iesvdm.MatrizTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="setIntroduceObjectAndGetFindsIt" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PilaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepasoListaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Genericos" />
       <extension name="coverage">
         <pattern>
@@ -125,19 +88,67 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.iesvdm" />
-      <option name="MAIN_CLASS_NAME" value="org.iesvdm.PilaTest" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.RepasoListaTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepasoListaTest.aniadeOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Genericos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.RepasoListaTest" />
+      <option name="METHOD_NAME" value="aniadeOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepasoListaTest.indexOfFunciona" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Genericos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.RepasoListaTest" />
+      <option name="METHOD_NAME" value="indexOfFunciona" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepasoListaTest.listaEstaordenada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Genericos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iesvdm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.iesvdm" />
+      <option name="MAIN_CLASS_NAME" value="org.iesvdm.RepasoListaTest" />
+      <option name="METHOD_NAME" value="listaEstaordenada" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PilaTest" />
-        <item itemvalue="JUnit.MatrizTest" />
-        <item itemvalue="JUnit.ListaOrdenadaTest" />
-        <item itemvalue="JUnit.ListaOrdenadaTest.toStringPrintsTheListProperly" />
-        <item itemvalue="JUnit.ListaOrdenadaTest.removeWorksAsExpected" />
+        <item itemvalue="JUnit.RepasoListaTest.indexOfFunciona" />
+        <item itemvalue="JUnit.RepasoListaTest.listaEstaordenada" />
+        <item itemvalue="JUnit.RepasoListaTest.aniadeOk" />
+        <item itemvalue="JUnit.RepasoListaTest" />
+        <item itemvalue="JUnit.MatrizTest.setIntroduceObjectAndGetFindsIt" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +163,9 @@
       <workItem from="1696401826876" duration="7329000" />
       <workItem from="1696430681331" duration="6753000" />
       <workItem from="1696490365031" duration="18262000" />
-      <workItem from="1696587949667" duration="334000" />
+      <workItem from="1696587949667" duration="378000" />
+      <workItem from="1697613367789" duration="329000" />
+      <workItem from="1697702823562" duration="11055000" />
     </task>
     <task id="LOCAL-00001" summary="FIN">
       <option name="closed" value="true" />
@@ -170,7 +183,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696542877931</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Terminado">
+      <option name="closed" value="true" />
+      <created>1696588292067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696588292067</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Terminado">
+      <option name="closed" value="true" />
+      <created>1696588302412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696588302412</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FIN" />
     <MESSAGE value="Jvadoc de las clases hecho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jvadoc de las clases hecho" />
+    <MESSAGE value="Terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Terminado" />
   </component>
 </project>
